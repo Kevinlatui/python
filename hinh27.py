@@ -6,9 +6,9 @@ window.bgcolor("white")
 
 pen = turtle.Turtle()
 pen.shape("turtle")
-pen.speed(5)
+pen.speed(2)
 
-def f():
+def d():
     pen.lt(90)
     pen.fd(90)
     pen.lt(90)
@@ -27,6 +27,6 @@ def f():
     pen.fd(90)
     pen.lt(90)
 for _ in range(4):   
-    f()
+    d()
     pen.rt(90)
 turtle.done()
