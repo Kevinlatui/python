@@ -21,8 +21,9 @@ def g():
     pen.fd(25)
     pen.lt(35)
     pen.fd(80)
+pen.lt(90)
 for _ in range(6):
     g()
-    pen.lt(360/12)
+    pen.lt(360/6)
 
 turtle.done()
