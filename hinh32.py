@@ -17,7 +17,6 @@ def f():
     pen.fd(100)
     pen.lt(45)
     pen.fd(50)
-    pen.lt(120)
     pen.rt(60)
 for _ in range(8):  
     f()
