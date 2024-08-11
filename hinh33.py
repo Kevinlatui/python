@@ -17,14 +17,12 @@ for _ in range(4):
     pen.rt(90) 
     
 def f(g):
-# for _ in range(2):
     g = 30
     pen.penup()
     pen.fd(30)
     pen.lt(90)
     pen.pendown()
-    pen.circle(g)
-# circle = circle * 1.5 
+    pen.circle(g) 
     pen.penup()
     pen.rt(90)
     pen.fd(10)
