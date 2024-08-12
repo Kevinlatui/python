@@ -8,11 +8,9 @@ pen = turtle.Turtle()
 pen.shape("classic")
 pen.speed(5)
 
-def d():
-    pen.circle(30)
-    pen.rt(180)
-    pen.circle(30)
-    
-for _ in range(6):
-    d()
+def a():
+    pen.circle(20)
+    pen.rt(90)
+    pen.fd(100)
+a()
 turtle.done()
