@@ -17,3 +17,4 @@ for _ in range(20):
     w()
     pen.rt(360/20)
 turtle.done()
+

@@ -20,8 +20,8 @@ def roll_6_and_8():
 while True:
   print("Character builder")
   n = input("Name your legendary character:")
-  f = input("What's your character's race?(Human, Elf, Wizard, Orc, Dwarf)")
-  if f != "Human" and f != "Elf" and f != "Wizard" and f != "Orc" and f != "Dwarf":
+  f = input("What's your character's race?(Human, Elf, Wizard, Orc, Dwarf, Knight, Hero)")
+  if f != "Human" and f != "Elf" and f != "Wizard" and f != "Orc" and f != "Dwarf" and f != "Knight" and f != "Hero":
       print("please choose a valid race")
       time.sleep(2)
       os.system("clear")
