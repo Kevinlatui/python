@@ -6,7 +6,7 @@ window.bgcolor("white")
 
 pen = turtle.Turtle()
 pen.shape("classic")
-pen.speed(5)
+pen.speed(15)
 
 def a():
     pen.lt(90)
