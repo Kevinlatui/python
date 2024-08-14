@@ -10,8 +10,7 @@ pen.speed(5)
 
 def d():
     pen.circle(30)
-    pen.rt(180)
-    pen.circle(30)
+    pen.rt(120)
     
 for _ in range(6):
     d()
