@@ -10,8 +10,12 @@ pen.speed(5)
 
 def d():
     pen.circle(30)
-    pen.rt(120)
+    pen.penup()
+    pen.fd(30)
+    pen.pendown()
+    pen.rt(360/6)
     
 for _ in range(6):
     d()
+pen.circle(30)
 turtle.done()
