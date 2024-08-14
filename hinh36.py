@@ -17,5 +17,11 @@ def d():
     
 for _ in range(6):
     d()
+pen.penup()
+pen.rt(200)
+pen.fd(60)
+pen.lt(90)
+pen.fd(30)
+pen.pendown()
 pen.circle(30)
 turtle.done()
