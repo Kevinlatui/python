@@ -12,7 +12,7 @@ def w():
     pen.circle(30)
     pen.lt(50)
     pen.lt(14)
-for _ in range(20):
+for _ in range(6):
     w()
-    pen.lt(360/20)
+    pen.lt(360/6)
 turtle.done()
