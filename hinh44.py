@@ -1,0 +1,68 @@
+import turtle
+
+window = turtle.Screen()
+window.title("Hinh43")
+window.bgcolor("white")
+
+pen = turtle.Turtle()
+pen.shape("classic")
+pen.speed(5)
+pen.pensize(10)
+
+def w(diameter , minus):
+    diameter = 100
+    minus = 10
+    pen.color('red')
+    pen.circle(diameter)
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    pen.pendown()
+    pen.color('orange')
+    pen.rt(90)
+    pen.circle(diameter - minus)
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    pen.pendown()
+    pen.color('yellow')
+    pen.rt(90)
+    pen.circle(diameter - (minus * 2))
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    pen.pendown()
+    pen.color('green')
+    pen.rt(90)
+    pen.circle(diameter - (minus * 3))
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    pen.pendown()
+    pen.color('cyan')
+    pen.rt(90)
+    pen.circle(diameter - (minus * 4))
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    pen.pendown()
+    pen.color('indigo')
+    pen.rt(90)
+    pen.circle(diameter - (minus * 5))
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    pen.pendown()
+    pen.color('violet')
+    pen.rt(90)
+    pen.circle(diameter - (minus * 6))
+    pen.penup()
+    pen.lt(90)
+    pen.fd(10)
+    
+    
+    
+
+w(60,10)
+turtle.done()
+    
