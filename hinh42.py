@@ -7,6 +7,7 @@ window.bgcolor("white")
 pen = turtle.Turtle()
 pen.shape("classic")
 pen.speed(15)
+pen.pensize(2)
 
 def w():
     pen.circle(30)
