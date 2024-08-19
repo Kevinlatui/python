@@ -6,12 +6,13 @@ window.bgcolor("white")
 
 pen = turtle.Turtle()
 pen.shape("classic")
-pen.speed(1)
+pen.speed(15)
 
-for _ in range(20):
+pen.rt(90)
+for _ in range(30):
     pen.circle(30)
     # pen.lt(50)
     # pen.lt(14)
-    pen.lt(360/20)
+    pen.lt(180/30)
 turtle.done()
 
