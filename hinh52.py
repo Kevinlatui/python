@@ -19,9 +19,18 @@ def w(diameter , minus , fd):
     pen.lt(90)
     pen.fd(10)
     pen.pendown()
+
+
+
+
+    pen.penup()
+
+
+
+    pen.circle(diameter - minus , fd)
+    pen.pendown()
     pen.color('orange')
     pen.rt(90)
-    pen.penup
     pen.circle(diameter - minus , fd)
     pen.penup()
     pen.lt(90)
