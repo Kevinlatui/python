@@ -58,9 +58,7 @@ def w(diameter , minus_and_plus , fd):
     pen.lt(90)
     pen.color('violet')
     pen.circle(diameter - (minus_and_plus * 6) , fd)
-    # pen.penup()
-    # pen.lt(90)
-    # pen.fd(10)
+
         
     
 
