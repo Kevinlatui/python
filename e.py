@@ -1,5 +1,5 @@
 n = int(input("Please enter a number"))
-for i in range(1,n+1):
-    print(i)
+for n in range(1,n+1):
+    print(n)
 
     
