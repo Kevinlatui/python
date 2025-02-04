@@ -1,8 +1,13 @@
-from re import I
-from datetime import datetime, timezone, timedelta
-tz_vn = timezone(timedelta(hours=7))
 
-now = datetime.now(tz=tz_vn)
+import datetime
+from re import I 
+
+current_day = datetime.datetime.now().day
+current_month = datetime.datetime.now().month
+current_year = datetime.datetime.now().year 
+
+
+
 
 
 d = ""
@@ -13,6 +18,7 @@ if a == "no":
     print("Well then, sign up!")
     d = input("What's your desirable username?")
     p = input("What's your password?")
+    print(f"{current_day} - {current_month} - {current_year}")
     d_con = input("Please recheck your username:")
     p_con = input("Please recheck your pasword:")
     if d == d_con and p == p_con:
