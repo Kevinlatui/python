@@ -1,4 +1,5 @@
 from re import I
+import datetime
 
 
 d = ""
@@ -25,12 +26,20 @@ if a == "no":
         else:
             print("Try again. We can't find this page....")
 elif a == "yes":
-    while I == True:
-        loginrep = input("pls enter your username")
-        loginpass = input("pls enter your pass:")
-        if loginrep == d and loginpass == p:
-            print("Welcome back!")
-            break
-        else: 
-            print("There is an error. We can't find that account. Please try again.")
-            continue
+    loginrep = input("pls enter your username")
+    loginpass = input("pls enter your pass:")
+    if loginrep == d and loginpass == p:
+        print("Welcome back!")
+    
+    else: 
+        print("There is an error. We can't find that account. Please try again.")
+
+print("Please continue to create a blog that you want.")
+blog = input("please set up your blog:")
+if (len(blog) == 0):
+    print("Blog unsuccessful")
+else:
+    print("Processing...")
+    print()
+    print("Blog successful")
+datetime.aware()
