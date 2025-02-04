@@ -24,7 +24,12 @@ if a == "no":
         else:
             print("Try again. We can't find this page....")
 elif a == "yes":
-    loginrep = input("pls enter your username")
-    loginpass = input("pls enter your pass:")
-    if loginrep == d and loginpass == p:
-        print("Welcome back!")
+    while I == True:
+        loginrep = input("pls enter your username")
+        loginpass = input("pls enter your pass:")
+        if loginrep == d and loginpass == p:
+            print("Welcome back!")
+            break
+        else: 
+            print("There is an error. We can't find that account. Please try again.")
+            continue
