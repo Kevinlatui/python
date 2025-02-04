@@ -1,5 +1,8 @@
 from re import I
-import datetime
+from datetime import datetime, timezone, timedelta
+tz_vn = timezone(timedelta(hours=7))
+
+now = datetime.now(tz=tz_vn)
 
 
 d = ""
@@ -10,11 +13,17 @@ if a == "no":
     print("Well then, sign up!")
     d = input("What's your desirable username?")
     p = input("What's your password?")
-    print("Now login!")
+    d_con = input("Please recheck your username:")
+    p_con = input("Please recheck your pasword:")
+    if d == d_con and p == p_con:
+        print("Account successfully checked.")
+        print("Now login!")
+    else:
+        print("Please try again")
     while I == True:
         login = input("type your username:")
         login_password = input("type your password:")
-        if login != d or login_password != p or login != d and login_password != p:
+        if login != d or login_password != p or login != d and login_password != p and len(login) == 0 and len(login_password) == 0:
             print("oops! try again")
             continue
         a = input("Welcome to Search.org.vn! Have you signed up yet?")
@@ -42,4 +51,3 @@ else:
     print("Processing...")
     print()
     print("Blog successful")
-datetime.aware()
